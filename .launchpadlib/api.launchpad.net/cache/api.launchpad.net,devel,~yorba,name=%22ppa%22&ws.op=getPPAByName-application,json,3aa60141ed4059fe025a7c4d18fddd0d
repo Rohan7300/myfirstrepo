@@ -1,0 +1,22 @@
+status: 200
+date: Wed, 10 Apr 2024 11:31:11 GMT
+server: gunicorn
+x-powered-by: Zope (www.zope.org), Python (www.python.org)
+content-security-policy: frame-ancestors 'self';
+content-type: application/json
+strict-transport-security: max-age=15552000
+vary: Accept,Accept-Encoding
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-launchpad-revision: aec24aef7a9042c99ef3e238d8b0ca01df9e1a9f
+x-lazr-notifications: []
+x-xss-protection: 1; mode=block
+x-vcs-revision: aec24aef7a9042c99ef3e238d8b0ca01df9e1a9f
+x-request-id: e240e4c2-e51d-4672-8000-30c6077329ad
+content-length: 1550
+-content-encoding: gzip
+content-location: https://api.launchpad.net/devel/~yorba?name=%22ppa%22&ws.op=getPPAByName
+-varied-accept: application/json
+-varied-accept-encoding: gzip, deflate
+
+{"self_link": "https://api.launchpad.net/devel/~yorba/+archive/ubuntu/ppa", "web_link": "https://launchpad.net/~yorba/+archive/ubuntu/ppa", "resource_type_link": "https://api.launchpad.net/devel/#archive", "owner_link": "https://api.launchpad.net/devel/~yorba", "name": "ppa", "displayname": "yorba", "reference": "~yorba/ubuntu/ppa", "distribution_link": "https://api.launchpad.net/devel/ubuntu", "private": false, "suppress_subscription_notifications": false, "dependencies_collection_link": "https://api.launchpad.net/devel/~yorba/+archive/ubuntu/ppa/dependencies", "description": "The Yorba PPA is maintained by the Yorba Foundation and home to the Shotwell Photo Manager, the Geary Mail Client, California Calendar.  We also offer here gexiv2 (a GObject wrapper for the Exiv2 metadata library used by Shotwell).", "signing_key_fingerprint": "90B064CAE4CBA8A6C34F04D110975893E549B1AC", "require_virtualized": true, "build_debug_symbols": false, "publish_debug_symbols": false, "permit_obsolete_series_uploads": false, "authorized_size": 2048, "status": "Active", "external_dependencies": null, "processors_collection_link": "https://api.launchpad.net/devel/~yorba/+archive/ubuntu/ppa/processors", "enabled_restricted_processors_collection_link": "https://api.launchpad.net/devel/~yorba/+archive/ubuntu/ppa/enabled_restricted_processors", "publishing_method": "Local", "repository_format": "Debian", "publish": true, "relative_build_score": 100, "http_etag": "\"12927d00f5d58b3d4d30e101044c6abc818665e1-12c4a83e0ed783c3c9b59784011a6f4da4579a67\""}
